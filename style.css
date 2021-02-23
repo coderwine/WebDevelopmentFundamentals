@@ -1,0 +1,160 @@
+:root {
+    /* --efaRed: #e33f41; */
+    --efaRed: #EC494B;
+    --efaSecondRed: #B63234;
+    --efaGold: #EDB71E;    
+    --efaFont: 'Gotham', sans-serif;
+    --efaBodyFont: 'Crimson', serif;
+    /* 
+    *
+    */
+}
+
+/*NOTE INCLUDE MEDIA QUERY HERE */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    font: var(--efaBodyFont);
+}
+
+/*! NAVBAR */
+nav {
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--efaRed);
+    position: fixed;
+    top: 0;
+    padding: 0;
+    z-index: 1;
+    font: var(--efaFont);
+}
+
+nav ul #nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin: .25rem;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a li {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+#brand {
+    font-size: 24pt;
+    float: left;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.nav-week {
+    margin-right: 2rem;
+    font-size: 16pt;
+}
+
+/*! SIDEBAR */
+.sideBar {
+    height: 100vh;
+    width: 20vw;
+    padding-top: 3.5rem;
+    background: linear-gradient(
+        .85turn,
+        var(--efaRed), 
+        #FFFFFF
+    );
+    position: fixed;
+    z-index: 0;
+    /* 
+    * scroll added after content expands
+    */
+    overflow-y: scroll;
+    /* *may want to style scroll bar later */
+}
+
+.sidebar ul {
+    border-bottom: 2px solid red;
+}
+
+.sideBar ul a {
+    list-style: none;
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.sideBar ul a:hover {
+    font: bolder;
+    /* text-shadow: 0px 0px 12px slategrey; */
+    color: var(--efaRed)
+} 
+
+
+
+/*! MAIN CONTAINER  */
+main {
+    margin-top: 10vh;
+    margin-left: 20vw;
+    height: auto;
+    width: 80vw;
+    float: right;
+    background-color: black;
+    display: block;
+    /* padding: 0 1rem; */
+    padding: 1rem;
+    overflow-y: hidden;
+
+}
+
+section {
+    background-color: whitesmoke;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 1rem;
+    margin-bottom: 2em;
+}
+
+.sectionHeaders {
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionContainers div {
+    border: 2px solid black;
+    margin: .5em;
+}
+
+/*! INTRODUCTION */
+#introduction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+section #introText {
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+section #introImg {
+    background: url('./assets/intro_img.jpg') -25px -10px no-repeat;
+    height: 300px;
+    width: 300px;    
+    border-radius: 100px;
+}

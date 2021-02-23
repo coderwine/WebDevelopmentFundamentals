@@ -1,0 +1,50 @@
+FT:                                     PT:
+WK I                                   | WK I / II
+    * Day 1 **********************     | * WK 1 **********************     
+    - HTML Mini Lesson                 |    - Smiley Face Modules
+    - CSS Mini Lesson                  |    - Comments / Console.log
+    - Terminal Navigation              |    - Variables
+    - CSS Creature / Smiley Face       |    - DataTypes
+    * Day 2 **********************     |    - Assignment Operators
+    - Comments / Console.log           |    - Comparison Operators
+    - Variables                        | * WK II **********************     
+    - Declarations / Initializations   |    - PT I
+    - DataTypes                        |        - Ternaries / Switch
+    - Assignment Operators             |        - Loops
+    - Comparison Operators             |            - For / ForOf / ForOf
+    - Git Lesson                       |    - PT II
+    * Day 3 **********************     |        - Scope
+    - IF, Else/IF                      |        - Hoisting
+    - Ternaries / Switch               |        - Literals
+    - Loops                            |        - Functions
+        - ForLoops / ForIn / ForOf     |            - Declaritive / Arrow
+    * Day 4 **********************     | 
+    - Functions                        | 
+        - Declaritive / Arrow          | 
+    - Scope                            | 
+    - Hoisting                         | 
+    - FizzBuzz Challenge (group)       | 
+    * Day 5 **********************     | 
+    - Arrays                           | 
+        - Square Bracket Notation      | 
+    - Objects                          | 
+        - Dot Notation                 |
+    - Bootstrap mini lesson            | 
+WK II                                  | WK III / IV
+    * Day 1 **********************     | * WK III *********************
+    * Day 2 **********************     | * WK IV **********************
+    * Day 3 **********************     |
+    * Day 4 **********************     |
+    * Day 5 **********************     |
+WK III                                 | WK V / VI
+    * Day 1 **********************     | * WK V ***********************
+    * Day 2 **********************     | * WK VI **********************
+    * Day 3 **********************     |
+    * Day 4 **********************     |
+    * Day 5 **********************     |
+WK IV                                  | WK VII / WK VIII
+    * Day 1 **********************     | * WK VII *********************
+    * Day 2 **********************     | * WK VIII ********************
+    * Day 3 **********************     |
+    * Day 4 **********************     |
+    * Day 5 **********************     |

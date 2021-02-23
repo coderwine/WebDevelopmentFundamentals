@@ -3,12 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- * GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <!-- * https://fonts.google.com/specimen/Crimson+Text?preview.text_type=custom&sidebar.open=true&selection.family=Crimson+Text&query=CRIMSON -->
+    
+    <!-- ! CSS Link -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
     <title>Web Development Fundamentals</title>
 </head>
-<body>
+<body id="topPage">  
+    <!-- 
+        *set the ID of body after trying to set the "Introduction" section 
+        ? Setting the brand to target the top of the body pops us back to the top of the page.
+    -->
 
-    <h1>Hello World</h1>
-    <p>Testing</p>
+    <nav>
+        <!-- ul>li*2 -->
+        <ul>
+            <a href="#topPage">
+                <li id="brand">WD00</li>
+            </a>
+            <div id="nav-items">
+                <a href="#wk-I">
+                    <li class="nav-week" id="navWK-1">Week I</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-2">Week II</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-3">Week III</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-4">Week IV</li>
+                </a>
+                <!-- <a href="#">
+                    <li class="nav-week" id="navWK-5">Week V</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-6">Week VI</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-7">Week VII</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-8">Week VIII</li>
+                </a> -->
+            </div>
+        </ul>
+    </nav>
 
+    <!-- Side Bar -->
+    <div class="sideBar">
+        <ul id='wkOne-topics'>
+            <a href="#">
+                <li>Intro</li>
+            </a><a href="#">
+                <li>HTML/CSS</li>
+            </a><a href="#">
+                <li>Opt 3</li>
+            </a><a href="#">
+                <li>Opt 4</li>
+            </a>
+        </ul>
+
+        <ul id='wkTwo-topics'>
+            <a href="#">
+                <li>Opt 5</li>
+            </a><a href="#">
+                <li>Opt 6</li>
+            </a><a href="#">
+                <li>Opt 7</li>
+            </a><a href="#">
+                <li>Opt 8</li>
+            </a>
+        </ul>
+
+        <ul id='wkThree-topics'>
+            <a href="#">
+                <li>Opt 5</li>
+            </a><a href="#">
+                <li>Opt 6</li>
+            </a><a href="#">
+                <li>Opt 7</li>
+            </a><a href="#">
+                <li>Opt 8</li>
+            </a>
+        </ul>
+
+        <ul id='wkFour-topics'>
+            <a href="#">
+                <li>Opt 5</li>
+            </a><a href="#">
+                <li>Opt 6</li>
+            </a><a href="#">
+                <li>Opt 7</li>
+            </a><a href="#">
+                <li>Opt 8</li>
+            </a>
+        </ul>
+
+        <ul id='wkFour-topics'>
+            <a href="#">
+                <li>Opt 5</li>
+            </a><a href="#">
+                <li>Opt 6</li>
+            </a><a href="#">
+                <li>Opt 7</li>
+            </a><a href="#">
+                <li>Opt 8</li>
+            </a>
+        </ul>
+    </div>
+    
+    <main>
+
+        <article id="wk-I">
+        
+        <section>
+            <h2 class="sectionHeaders">Introduction</h2>
+            <div id="introduction">
+                <div class="introBox" id="introText">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dicta soluta molestias consequuntur. Voluptas dolor temporibus, mollitia quae, inventore repudiandae doloremque magni nemo repellat aliquid amet iure, facere voluptates incidunt.</p>
+                    <p>Odio dolor aut ullam dolores libero amet dicta iste iure officiis illum aliquam quis, porro debitis expedita incidunt quas, dignissimos nostrum corrupti. Dolor ipsum dolorum incidunt eius. Commodi, dignissimos inventore.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis cum magnam atque nam neque omnis explicabo voluptas error dignissimos tenetur harum, est et velit inventore exercitationem qui nulla eius nihil.</p>
+                </div>
+                <div class="introBox" id="introImg"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sectionHeaders">
+                <h1>HTML/CSS Notes</h1>
+                <h3>02/23/21</h3>
+            </div>
+            <div class="sectionContainers">
+                <div class="inClassNotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias recusandae vel voluptatum ab non odit aliquam, cum laboriosam quisquam dicta ut minus itaque, quibusdam eum nesciunt nemo corrupti. Quam, quasi.
+                Autem tenetur labore, dolores vitae eum odit velit! Veniam aut iure inventore sunt molestiae! Hic quisquam earum qui repellendus alias sapiente, cumque sed accusamus id. Aperiam sed reprehenderit dolorum nihil.
+                Nihil sunt asperiores illum explicabo reprehenderit aliquid, soluta facilis facere molestiae impedit provident distinctio magnam nam ducimus incidunt consectetur debitis, nisi quod corporis fuga odit quas. Id ad explicabo velit.</div>
+                <div class="myNotes">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius unde facilis molestiae provident culpa corporis dicta sunt ipsam possimus. Dolorum libero odio maxime repellendus quaerat adipisci nihil corporis iusto.
+                </div>
+            </div>
+        </section>
+
+        </article>  
+
+    </main>
+
+    <!-- ! Injecting another HTML using JQuery -->
+    <!-- <div class="notesDisplay">
+        <div id="javascriptPage"></div>
+    </div> -->
+
+    <!-- JAVASCRIPT  -->
+
+    <script src="main.js"></script>
 </body>
 </html>
