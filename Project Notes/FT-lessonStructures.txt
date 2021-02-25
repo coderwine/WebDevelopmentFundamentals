@@ -1,0 +1,50 @@
+FT:                                     
+WK I                                   
+    * Day 1 **********************         
+    - HTML Mini Lesson                    
+    - CSS Mini Lesson                     
+    - Terminal Navigation                 
+    - CSS Creature / Smiley Face          
+    * Day 2 **********************        
+    - Comments / Console.log              
+    - Variables                             
+    - Declarations / Initializations      
+    - DataTypes                           
+    - Assignment Operators                
+    - Comparison Operators                
+    - Git Lesson                          
+    * Day 3 **********************        
+    - IF, Else/IF                         
+    - Ternaries / Switch                  
+    - Loops                               
+        - ForLoops / ForIn / ForOf     
+    * Day 4 **********************     
+    - Functions                        
+        - Declaritive / Arrow          
+    - Scope                            
+    - Hoisting                         
+    - FizzBuzz Challenge (group)       
+    * Day 5 **********************     
+    - Arrays                           
+        - Square Bracket Notation      
+    - Objects                          
+        - Dot Notation                 
+    - Bootstrap mini lesson            
+WK II                                  
+    * Day 1 **********************     
+    * Day 2 **********************     
+    * Day 3 **********************     
+    * Day 4 **********************     
+    * Day 5 **********************     
+WK III                                 
+    * Day 1 **********************     
+    * Day 2 **********************     
+    * Day 3 **********************     
+    * Day 4 **********************     
+    * Day 5 **********************     
+WK IV                                  
+    * Day 1 **********************     
+    * Day 2 **********************     
+    * Day 3 **********************     
+    * Day 4 **********************     
+    * Day 5 **********************     

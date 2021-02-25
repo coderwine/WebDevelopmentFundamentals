@@ -9,9 +9,10 @@
     <!-- * https://fonts.google.com/specimen/Crimson+Text?preview.text_type=custom&sidebar.open=true&selection.family=Crimson+Text&query=CRIMSON -->
     
     <!-- ! CSS Link -->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
     
     <title>Web Development Fundamentals</title>
+    <link rel="shortcut icon" href="./assets/js.svg" type="image/x-icon">
 </head>
 <body id="topPage">  
     <!-- 
@@ -26,29 +27,17 @@
                 <li id="brand">WD00</li>
             </a>
             <div id="nav-items">
-                <a href="#wk-I">
-                    <li class="nav-week" id="navWK-1">Week I</li>
+                <a href="#wk-I" target="_self">
+                    <li class="nav-week" id="navWK-1">Main Notes</li>
+                </a>
+                <a href="./javascript/javascriptPage.html">
+                    <li class="nav-week" id="navWK-2">JavaScript</li>
                 </a>
                 <a href="#">
-                    <li class="nav-week" id="navWK-2">Week II</li>
-                </a>
-                <a href="#">
-                    <li class="nav-week" id="navWK-3">Week III</li>
-                </a>
-                <a href="#">
-                    <li class="nav-week" id="navWK-4">Week IV</li>
+                    <li class="nav-week" id="navWK-3">Bootstrap</li>
                 </a>
                 <!-- <a href="#">
-                    <li class="nav-week" id="navWK-5">Week V</li>
-                </a>
-                <a href="#">
-                    <li class="nav-week" id="navWK-6">Week VI</li>
-                </a>
-                <a href="#">
-                    <li class="nav-week" id="navWK-7">Week VII</li>
-                </a>
-                <a href="#">
-                    <li class="nav-week" id="navWK-8">Week VIII</li>
+                    <li class="nav-week" id="navWK-4">Week IV</li>
                 </a> -->
             </div>
         </ul>
@@ -57,64 +46,27 @@
     <!-- Side Bar -->
     <div class="sideBar">
         <ul id='wkOne-topics'>
-            <a href="#">
+            <!-- <a href="#introduction"> -->
+            <a href="#topPage">
                 <li>Intro</li>
-            </a><a href="#">
-                <li>HTML/CSS</li>
-            </a><a href="#">
-                <li>Opt 3</li>
-            </a><a href="#">
-                <li>Opt 4</li>
+            </a>
+            <a href="#">
+                <li>HTML</li>
+            </a>
+            <a href="#">
+                <li>CSS</li>
+            </a>
+            <a href="#">
+                <li>Terminal</li>
+            </a>
+            <a href="#">
+                <li>Git Lesson</li>
+            </a>
+            <a href="#topPage">
+                <li>to Top</li>
             </a>
         </ul>
 
-        <ul id='wkTwo-topics'>
-            <a href="#">
-                <li>Opt 5</li>
-            </a><a href="#">
-                <li>Opt 6</li>
-            </a><a href="#">
-                <li>Opt 7</li>
-            </a><a href="#">
-                <li>Opt 8</li>
-            </a>
-        </ul>
-
-        <ul id='wkThree-topics'>
-            <a href="#">
-                <li>Opt 5</li>
-            </a><a href="#">
-                <li>Opt 6</li>
-            </a><a href="#">
-                <li>Opt 7</li>
-            </a><a href="#">
-                <li>Opt 8</li>
-            </a>
-        </ul>
-
-        <ul id='wkFour-topics'>
-            <a href="#">
-                <li>Opt 5</li>
-            </a><a href="#">
-                <li>Opt 6</li>
-            </a><a href="#">
-                <li>Opt 7</li>
-            </a><a href="#">
-                <li>Opt 8</li>
-            </a>
-        </ul>
-
-        <ul id='wkFour-topics'>
-            <a href="#">
-                <li>Opt 5</li>
-            </a><a href="#">
-                <li>Opt 6</li>
-            </a><a href="#">
-                <li>Opt 7</li>
-            </a><a href="#">
-                <li>Opt 8</li>
-            </a>
-        </ul>
     </div>
     
     <main>
@@ -135,7 +87,7 @@
 
         <section>
             <div class="sectionHeaders">
-                <h1>HTML/CSS Notes</h1>
+                <h1>HTML</h1>
                 <h3>02/23/21</h3>
             </div>
             <div class="sectionContainers">
@@ -150,15 +102,21 @@
 
         </article>  
 
+        <footer>
+            <ul>
+                <a href="./HTML/resource.html">
+                    <li>Resources</li>
+                </a>
+                <a href="#topPage">
+                    <li>To Top</li>
+                </a>
+            </ul>
+        </footer>
     </main>
 
-    <!-- ! Injecting another HTML using JQuery -->
-    <!-- <div class="notesDisplay">
-        <div id="javascriptPage"></div>
-    </div> -->
 
     <!-- JAVASCRIPT  -->
 
-    <script src="main.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

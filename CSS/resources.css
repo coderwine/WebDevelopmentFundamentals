@@ -1,0 +1,10 @@
+/* mini grid lesson */
+#resourceTable {
+    width: 100vw;
+    display: grid;
+}
+
+table {
+    margin-top: 10vh;
+    display: table;
+}

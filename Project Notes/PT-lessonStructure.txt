@@ -1,0 +1,21 @@
+PT:
+WK I / II
+ * WK 1 **********************     
+    - Smiley Face Modules
+    - Comments / Console.log
+    - Variables
+    - DataTypes
+    - Assignment Operators
+    - Comparison Operators
+ * WK II **********************     
+    - PT I
+    - Ternaries / Switch
+    - Loops
+    - For / ForOf / ForOf
+    - PT II
+    - Scope
+    - Hoisting
+    - Literals
+    - Functions
+    - Declaritive / Arrow
+
