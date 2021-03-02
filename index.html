@@ -30,11 +30,14 @@
                 <a href="#topPage" target="_self">
                     <li class="nav-week" id="navWK-1">General Notes</li>
                 </a>
-                <a href="./javascript/javascriptPage.html">
+                <a href="./HTML/javascriptPage.html">
                     <li class="nav-week" id="navWK-2">JavaScript</li>
                 </a>
                 <a href="#">
                     <li class="nav-week" id="navWK-3">Bootstrap</li>
+                </a>
+                <a href="#">
+                    <li class="nav-week" id="navWK-3">APIs</li>
                 </a>
             </div>
         </ul>
@@ -51,6 +54,9 @@
             </a>
             <a href="#cssNotes">
                 <li>CSS</li>
+            </a>
+            <a href="#comments">
+                <li>Comments</li>
             </a>
             <a href="#terminalNotes">
                 <li>Terminal</li>
@@ -72,7 +78,7 @@
             <h2 class="sectionHeaders">Introduction</h2>
             <div id="introduction">
                 <div class="introBox" id="introText">
-                    <p>The purpose of this page is to introduce those who are new to HTML, CSS and JS.  The goal of this build is not to necessarily make the prettiest site there is out there but to learn some general concepts and leave a sort of "playground" for those learning to update and change their projects.</p>
+                    <p>The purpose of this page is to introduce those who are new to HTML, CSS and JS.  The goal of this build is not to necessarily make the prettiest site there is out there but to learn some general concepts and leave a sort of "playground" for those learning to update and change their projects.  The first aspect of this lesson will not be focused on mobile viewing.</p>
                     <p>I aim to make a lesson that will hopefully solidify these general concepts and arm those going through this a toolset to help them learn more after this lesson.  I believe that by working on a build, we are helping ourselves understand these languages.</p>
                     <p>Lastly, I hope for this to be enjoyable as we see our build grow and respond to the various changes we will end up making to this page.</p>
                 </div>
@@ -106,6 +112,41 @@
                 </div>
                 <div id="myNotes">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, sit. Ducimus, a, maiores, animi reprehenderit odio nesciunt ipsum quisquam nihil modi eligendi at officia beatae doloremque delectus magnam asperiores ipsam!
+                </div>
+            </div>
+        </section>
+
+        <section id="comments">
+            <div class="sectionHeaders">
+                <h1>Comments</h1>
+                <h3>03/02/2021</h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+                    <!-- 
+                        ? The value of comments allows us to input direct communication into our files so that we can either refer to them at a later time or communicate with someone else who is picking up our project.  It's important to document your intent within your code so it is clear as to what your program is doing.
+
+                        ?  Comments are generated differently within different languages.    
+                     -->
+                            <p>
+                                Within HTML, we use <code> < !-- [input message here ] --> </code> to denote our comments. Makes both single and multi-line comments. 
+                            </p>
+                            <p> Within CSS, <code>/* [message] */</code> allows for both single and multi-line comments </p>
+                            <p> For JS, <code>// [message]</code> for single line comments and <code>/* [message] */</code> for multi-line comments. </p>
+                            <p>*quick note: using <code>CTRL + /</code> (on PC) & <code>CMD + /</code> (on Mac) is a quick way to comment out a line or multiple lines of code.</p>
+                </div>
+                <div id="myNotes">
+                    <p>What are some reason why we want to add comments?</p>
+                    <!-- 
+                        ! Challenge:  
+                        Make an unordered list of at least 3 items that detail reasons why you may want to include comments in your code.  Feel free to add as many as you'd like.
+                    -->
+                    <ul>
+                        <li>Notify your future self as to what you were building.</li>
+                        <li>Clearly mark areas of your project.</li>
+                        <li>Helps other developers navigate your project.</li>
+                        <li>We can "clear" code to help us test while building.</li>
+                    </ul>
                 </div>
             </div>
         </section>

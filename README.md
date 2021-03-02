@@ -10,11 +10,14 @@ Resources that help structure these notes:
 
   - TXT files are meant to house general plans for daily/weekly lesson plans.  These will also house resource links that may dive deeper into general concepts.
 
+  - Goal of this project is to make it as modular as possible so that we can move lessons around as easily as possible.
+
 # Status:
   - Builds will be sectioned off to explain various topics.  The goal is to focus on folder structure so that it makes sense and helps students move into Blue (and onto Red).
   - General Notes section has been framed out.
   - Resource HTML doc generated and formed to be a small challenge for students.
   - Footer built out.  Houses "Resources" and "To Top" navigation.
+  - JS HTML page framed out with "week one" material
 
 # TODO:
 Building out the main Navbar to house the various weeks of Gold badge. 
