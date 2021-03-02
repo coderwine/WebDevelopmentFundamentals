@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Link -->
     <link rel="stylesheet" href="../CSS/style.css">
+    <!-- ! resources.css created during challenge below -->
     <link rel="stylesheet" href="../CSS/resources.css">
 
     <title>Resources</title>
 </head>
 <body>
-    <!-- Using the same NavBar from the main page - slightly modified. -->
+    <!-- *copy/paste navbar from index.html - slightly modify content. -->
     <nav>
-        <!-- ul>li*2 -->
         <ul>
             <a href="#topPage">
                 <li id="brand">WD00</li>
             </a>
             <div id="nav-items">
                 <a href="../index.html" target="_self">
-                    <li class="nav-week" id="navWK-1">Main Notes</li>
+                    <li class="nav-week" id="navWK-1">General Notes</li>
                 </a>
                 <a href="./javascript/javascriptPage.html">
                     <li class="nav-week" id="navWK-2">JavaScript</li>
@@ -28,54 +28,67 @@
                 <a href="#">
                     <li class="nav-week" id="navWK-3">Bootstrap</li>
                 </a>
-                <!-- <a href="#">
-                    <li class="nav-week" id="navWK-4">Week IV</li>
-                </a> -->
             </div>
         </ul>
     </nav>
 
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Topic</th>
-                <th>LINK</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>One</td>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <td>URL</td>
-                </a>
-            </tr>
-            <tr>
-                <td>Two</td>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <td>URL</td>
-                </a>
-            </tr>
-            <tr>
-                <td>Three</td>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <td>URL</td>
-                </a>
-            </tr>
-            <tr>
-                <td>Four</td>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <td>URL</td>
-                </a>
-            </tr>
-            <tr>
-                <td>Five</td>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <td>URL</td>
-                </a>
-            </tr>   
-        </tbody>
-    </table>
-    
+    <!--
+        ! CHALLENGE Opportunity 
+        Create a table that will house our resource links that we come across throughout our learning.
+        
+        The head will consist of 2 values:  
+            - Topic
+            - Links
+        
+        The body will list three topics:  
+            - "Tables in HTML"
+            - "Anchor Tags"
+            - "HTML Margin & Padding"
+
+        In relation to each topic, each link will have a value of "URL" that will open up a new tab to our resource url.
+            - https://www.w3schools.com/html/html_tables.asp
+            - https://www.w3schools.in/html-tutorial/anchor/
+            - https://tutorialehtml.com/en/css-tutorial-margin-border-and-padding/
+        
+        - Create a stylesheet and link it to this document.  We will be styling the table ONLY within it.
+
+        - Style the table so that it is below the Navbar.  Center the table and text within the page and allow for a small margin/pad on the left and right of the screen.  
+
+        *bonus: Add any other styles that you may find pleasing (this will be your resource list in the end!)
+
+    -->
+
+        <table id="resourceTable">
+            <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Tables in HTML</td>
+                        <td>
+                            <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank" rel="noopener noreferrer">URL</a>
+                        </td>
+                </tr>
+                <tr>
+                    <td>Anchor Tags</td>
+                        <td>
+                            <a href="https://www.w3schools.in/html-tutorial/anchor/" target="_blank" rel="noopener noreferrer">URL</a>
+                        </td>
+                </tr>
+                <tr>
+                    <td>HTML Margin & Padding</td>
+                    <td>
+                        <a href="https://tutorialehtml.com/en/css-tutorial-margin-border-and-padding/" target="_blank" rel="noopener noreferrer">URL</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
 </body>
 </html>

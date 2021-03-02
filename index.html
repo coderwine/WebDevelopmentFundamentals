@@ -27,8 +27,8 @@
                 <li id="brand">WD00</li>
             </a>
             <div id="nav-items">
-                <a href="#wk-I" target="_self">
-                    <li class="nav-week" id="navWK-1">Main Notes</li>
+                <a href="#topPage" target="_self">
+                    <li class="nav-week" id="navWK-1">General Notes</li>
                 </a>
                 <a href="./javascript/javascriptPage.html">
                     <li class="nav-week" id="navWK-2">JavaScript</li>
@@ -36,9 +36,6 @@
                 <a href="#">
                     <li class="nav-week" id="navWK-3">Bootstrap</li>
                 </a>
-                <!-- <a href="#">
-                    <li class="nav-week" id="navWK-4">Week IV</li>
-                </a> -->
             </div>
         </ul>
     </nav>
@@ -46,24 +43,23 @@
     <!-- Side Bar -->
     <div class="sideBar">
         <ul id='wkOne-topics'>
-            <!-- <a href="#introduction"> -->
             <a href="#topPage">
                 <li>Intro</li>
             </a>
-            <a href="#">
+            <a href="#htmlNotes">
                 <li>HTML</li>
             </a>
-            <a href="#">
+            <a href="#cssNotes">
                 <li>CSS</li>
             </a>
-            <a href="#">
+            <a href="#terminalNotes">
                 <li>Terminal</li>
             </a>
             <a href="#">
                 <li>Git Lesson</li>
             </a>
-            <a href="#topPage">
-                <li>to Top</li>
+            <a href="./HTML/resource.html">
+                <li>My Resource List</li>
             </a>
         </ul>
 
@@ -71,21 +67,20 @@
     
     <main>
 
-        <article id="wk-I">
         
         <section>
             <h2 class="sectionHeaders">Introduction</h2>
             <div id="introduction">
                 <div class="introBox" id="introText">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dicta soluta molestias consequuntur. Voluptas dolor temporibus, mollitia quae, inventore repudiandae doloremque magni nemo repellat aliquid amet iure, facere voluptates incidunt.</p>
-                    <p>Odio dolor aut ullam dolores libero amet dicta iste iure officiis illum aliquam quis, porro debitis expedita incidunt quas, dignissimos nostrum corrupti. Dolor ipsum dolorum incidunt eius. Commodi, dignissimos inventore.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis cum magnam atque nam neque omnis explicabo voluptas error dignissimos tenetur harum, est et velit inventore exercitationem qui nulla eius nihil.</p>
+                    <p>The purpose of this page is to introduce those who are new to HTML, CSS and JS.  The goal of this build is not to necessarily make the prettiest site there is out there but to learn some general concepts and leave a sort of "playground" for those learning to update and change their projects.</p>
+                    <p>I aim to make a lesson that will hopefully solidify these general concepts and arm those going through this a toolset to help them learn more after this lesson.  I believe that by working on a build, we are helping ourselves understand these languages.</p>
+                    <p>Lastly, I hope for this to be enjoyable as we see our build grow and respond to the various changes we will end up making to this page.</p>
                 </div>
-                <div class="introBox" id="introImg"></div>
+                <div class="introBox" id="introImg" alt="profile image of a squirrel"></div>
             </div>
         </section>
 
-        <section>
+        <section id="htmlNotes">
             <div class="sectionHeaders">
                 <h1>HTML</h1>
                 <h3>02/23/21</h3>
@@ -100,20 +95,125 @@
             </div>
         </section>
 
-        </article>  
+        <section id="cssNotes">
+            <div class="sectionHeaders">
+                <h1>CSS</h1>
+                <h3>03/01/21</h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim assumenda sit vitae laudantium cum earum, asperiores voluptatum maxime porro molestias ab, odio quibusdam dignissimos dolorum optio. Natus, nisi temporibus?
+                </div>
+                <div id="myNotes">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, sit. Ducimus, a, maiores, animi reprehenderit odio nesciunt ipsum quisquam nihil modi eligendi at officia beatae doloremque delectus magnam asperiores ipsam!
+                </div>
+            </div>
+        </section>
 
-        <footer>
+        <section id="terminalNotes">
+            <div class="sectionHeaders">
+                <h1>The Terminal</h1>
+                <h3>03/01/21</h3>
+            </div>
+            <div class="sectionContainers">
+                <!-- 
+                    ? The terminal offers us the ability to navigate, add, remove and communicate with outside resources by using simple commands.  Here are some quick commands that will help us start off our journey through the cmd terminal.  I will be using the word "Folder" and "Direcotry" interchangably.
+
+                    *This lesson will primarily taught through the terminal itself.  These notes should be discussed but probably provided after the lesson for the students to include into their projects.
+                 -->
+                
+                <ul>
+                    <li>View Current Directory: <br>
+                        <code>ls</code> on mac / <code>dir</code> on PC.</li>
+                    <li>Change your Directory: <br>
+                        <code>cd [name of folder]</code></li>
+                    <li>Step Back or Out of Current Directory: <br>
+                        <code>cd ..</code></li>
+                    <li>Making a new Directory: <br>
+                        <code>mkdir [name of folder]</code></li>
+                    <li>Opening VSCode: <br>
+                        <code>code .</code> (while sitting inside chosen folder/directory) </li>
+                </ul>
+                <p>*Folder and Direcotry are the same in this example.</p>
+            </div>
+        </section>
+
+        <section id="gitLesson">
+            <div class="sectionHeaders">
+                <h1>Git Lesson</h1>
+                <h3>03/01/21</h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+                    <!-- 
+                        *This lesson will primarily be done through the terminal.  
+                        ! Challenge:
+
+                        Create an Ordered List that notes the git commands:
+                            - git init
+                            - git status
+                            - git add .
+                            - git remote add origin [paste repo here]
+                            - git push origin main
+
+                        After making your list, try to do simple styling to make it easier to read.
+                     -->
+                    
+                    <ol>
+                        <li>Initialize a Project: <br>
+                            <code>git init</code> <i>*done only once when connecting your project to github.</i></li>
+                        <li>Check Status: <br>
+                            <code>git status</code> <i>*optional task</i></li>
+                        <li>Selecting a Folder/Directory: <br>
+                            <code>git add .</code></li>
+                        <li>Create a Commit Message: <br>
+                            <code>git commit -m "your message here"</code></li>
+                        <li>Establishing Repo Connection: <br>
+                            <code>git remote add origin [paste repo here]</code>* </li>
+                        <li>Push your Directory/Folder: <br>
+                            <code>git push origin main</code> <i>*older repos may use "master" instead of "main".  The most up to date is "main"</i></li>
+                    </ol>
+                    <p>*This connection link should only be needed when first establishing the repo/directory communication.  When updating your project, you will only be required to do processes 3, 4, and 6</p>
+                </div>
+                <div id="myNotes">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas eveniet vero ipsa inventore accusamus, doloribus, quod quas laudantium non placeat at quasi temporibus culpa nemo veniam ex quidem nesciunt.
+                </div>
+            </div>
+        </section>
+
+        <!-- Use this as a quick template to each section: -->
+        <!-- <section id="">
+            <div class="sectionHeaders">
+                <h1></h1>
+                <h3></h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+
+                </div>
+                <div id="myNotes">
+
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+    
+    <footer>
+        <div id="footList">
             <ul>
                 <a href="./HTML/resource.html">
-                    <li>Resources</li>
+                    <li>My Resources</li>
                 </a>
                 <a href="#topPage">
                     <li>To Top</li>
                 </a>
             </ul>
-        </footer>
-    </main>
-
+        </div>
+        <div id="copyright">
+            <p>By: Eric Winebrenner 2021&copy;</p>
+        </div>
+    </footer>
 
     <!-- JAVASCRIPT  -->
 

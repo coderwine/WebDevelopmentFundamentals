@@ -12,11 +12,17 @@ Resources that help structure these notes:
 
 # Status:
   - Builds will be sectioned off to explain various topics.  The goal is to focus on folder structure so that it makes sense and helps students move into Blue (and onto Red).
+  - General Notes section has been framed out.
+  - Resource HTML doc generated and formed to be a small challenge for students.
+  - Footer built out.  Houses "Resources" and "To Top" navigation.
 
 # TODO:
 Building out the main Navbar to house the various weeks of Gold badge. 
   - would like for each week to display a set of options within a Sidebar of the topics covered.
   - Need to set EFA fonts properly.
   - Build out WK 1 in total.
-  - Mini-Grid (CSS) Lesson with Resource table build
-  - 
+    - The value of folder/file structure
+    - HTML mini lesson (building current framework page)
+    - Mini-Grid (CSS) Lesson 
+    - Mini-Flex (CSS) Lesson
+    - Terminal / Git Lessons 
