@@ -1,12 +1,23 @@
+
+/* 
+*Testing connections for HTML *1
+body {
+    background-color: red;
+} 
+*/
+
 :root {
-    /* --efaRed: #e33f41; */
-    --efaRed: #EC494B;
-    --efaSecondRed: #B63234;
-    --efaGold: #EDB71E;    
+    --efaRedPrime: #EC494B;
+    --efaRedSec: #B63234;
+    --efaGoldPrime: #EDB71E;
+    --efaGoldSec: #D4A730;
+    --efaBluePrime: #438BB8;    
+    --efaBlueSec: #2D7CA4;
+    --efaGray: #54565A;    
     --efaFont: 'Gotham', sans-serif;
     --efaBodyFont: 'Crimson', serif;
     /* 
-    *
+    * sourced for EFA Style Guide
     */
 }
 
@@ -18,11 +29,12 @@ html, body {
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
-    font: var(--efaBodyFont);
+    font-family: var(--efaBodyFont);
+    background-color: var(--efaGray);
 }
 
 a:hover {
-    color: var(--efaGold);
+    color: var(--efaGoldPrime);
 }
 
 /*! NAVBAR */
@@ -30,12 +42,13 @@ nav {
     display: grid;
     width: 100vw;
     height: 10vh;
-    background-color: var(--efaRed);
+    background-color: var(--efaRedPrime);
     position: fixed;
     top: 0;
     padding: 0;
     z-index: 1;
-    font: var(--efaFont);
+    font-family: var(--efaFont);
+    /* font-family: 'Gotham', sans-serif; */
 }
 
 nav ul #nav-items {
@@ -69,12 +82,13 @@ nav ul a li {
 
 /*! SIDEBAR */
 .sideBar {
+    font-family: var(--efaFont);
     height: 100vh;
-    width: 20vw;
+    width: 15vw;
     padding-top: 5rem;
     background: linear-gradient(
         .85turn,
-        var(--efaRed), 
+        var(--efaRedPrime), 
         #FFFFFF
     );
     position: fixed;
@@ -87,7 +101,7 @@ nav ul a li {
 
 .sideBar ul a {
     list-style: none;
-    font-size: 12pt;
+    /* font-size: auto; */
     color: black;
     text-decoration: none;
     line-height: 2em;
@@ -95,7 +109,7 @@ nav ul a li {
 
 .sideBar ul a:hover {
     font: bolder;
-    color: var(--efaRed)
+    color: var(--efaRedPrime)
 } 
 
 
@@ -104,11 +118,10 @@ nav ul a li {
 main {
     margin-top: 10vh;
     margin-bottom: 10vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
     height: auto;
-    width: 80vw;
+    width: 85vw;
     float: right;
-    background-color: black;
     display: block;
     padding: 1rem;
     /* overflow-y: hidden; */
@@ -123,9 +136,11 @@ section {
     align-content: space-between;
     padding: 1rem;
     margin-bottom: 2em;
+    box-shadow: 3px 4px 8px black;
 }
 
 .sectionHeaders {
+    font-family: var(--efaFont);
     margin: .5rem;
     display: flex;
     flex-direction: row;
@@ -168,12 +183,16 @@ footer {
     /* flex-wrap: wrap; */
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    /* width: 100vw; */
+    border: 1px solid black;
+    width: 85vw;
     height: 10vh;
+    margin-left: 15vw;
+    /* right: 0; */
     bottom: 0;
     position: fixed;
     /* padding: .5rem; */
-    background-color: var(--efaSecondRed);
+    background-color: var(--efaRedSec);
 }
 
 footer div {
@@ -193,7 +212,7 @@ footer div ul {
 footer div ul a {
     color: white;
     text-decoration: none;
-    /* text-decoration: var(--efaGold); */
+    /* text-decoration: var(--efaGoldPrime); */
     list-style: none;
     /* list-style: outside; */
     /* display: inline-flex; */
@@ -201,10 +220,10 @@ footer div ul a {
     /* justify-content: space-between; */
 }
 
-#copyright {
+/* #copyright { */
     /* text-align: center; */
-}
+/* } */
 
 /* footer ul a:hover {
-    color: var(--efaGold);
+    color: var(--efaGoldPrime);
 } */

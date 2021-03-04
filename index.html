@@ -1,31 +1,108 @@
 <!DOCTYPE html>
+
+<!--
+        ! HTML mini-lesson * 1
+        ? When we start a new file within VSCode, we are able to utilize a feature within it to generate a "boilerplate".  We start this by typing out: 
+            - ! + tab
+        ? Let's cover some general concepts of some of these boilerplate tags:
+            - DOCTYPE html state the type of document we have created.  In this case, we are stating a simple HTML5 doctype.
+            ? There are other types that we can select from but this will be the primary that we will dive into.   *added to resources.txt
+
+        ? What does HTML stand for exactly?
+            - Hypertext Markup Language
+        
+        ? We create a head tag to store our metadata within.  This could be what type of viewport we want to specify, links to fonts, stylesheets and our document title.
+
+        * The UTF is primarily used to cover all the characters, punctuations, and symbols of the world.
+
+        ? Our viewport notes what is the current size that our page is being displayed on.  In this case, we are determining the width to aim for the device itself and scale as needed.
+ -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  <!-- Unicode Transformation Format-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- * GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+    <!-- ! HTML *1 -->
+    <!-- 
+        * GOOGLE FONT DISCONNECTED
+    -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"> -->
     <!-- * https://fonts.google.com/specimen/Crimson+Text?preview.text_type=custom&sidebar.open=true&selection.family=Crimson+Text&query=CRIMSON -->
     
-    <!-- ! CSS Link -->
+    <!-- 
+        ? Within our head tag, we can insert our CSS right into our HTML doc like so:
+     -->
+
+     <style>
+         body {
+             background-color: green;
+         }
+     </style>
+
+    <!-- 
+        ? Although we are capable of doing this, it is best to have our stylesheet as a separate document that we link to.  This is so that we can potentially style multiple items at once if we so desire.  
+
+        ?  Let's inject our style.css
+     -->
+
+    <!-- * CSS Link -->
     <link rel="stylesheet" href="./CSS/style.css" type="text/css">
     
+    <!-- 
+        ? After our CSS connection we tested, we can see that our styles tag above it is being overwritten.  Why is this?
+        - Our file is being read from top to bottom.
+        - Technically our background changed to green, but during the loading process, it also noted our stylesheet and rendered it red per the attribute.
+        ? Try swapping these to see what happens.
+
+        ? Our title tag displays within the tab of our document and let's give it a little more flavor with a icon.  
+        * will need to provide an icon.  Here is a quick link: https://icons8.com/icons/set/javascript
+     -->
     <title>Web Development Fundamentals</title>
     <link rel="shortcut icon" href="./assets/js.svg" type="image/x-icon">
 </head>
-<body id="topPage">  
-    <!-- 
-        *set the ID of body after trying to set the "Introduction" section 
-        ? Setting the brand to target the top of the body pops us back to the top of the page.
+
+<!-- 
+        ? The body of our document is what our users will view.  Anything that we want to display will need to go inside of our body tags.
+        - body = User Display 
+        ? We will be building a sort of Notes site that will allow us to practice layout, styling, and JavaScript.  What we will want is:
+        Main Aspecty of our Site:
+        - A Main Navbar
+        - Sections for our Notes
+        - A Sidebar for Subtopics
+        - A Footer
+        ? This will be a basic site but something that you can most certainly play with and make your own.  What we build together will be mostly suggestions regarding colors and whatnot.  As we build, I hope that you will become comfortable with altering aspects to help you try out new things, test concepts, or simply refer back to as a source for your notes.     
     -->
 
+<!-- <body>  *start here - we will add the id when detailing hrefs -->
+<body id="topPage">  
+
+     <!-- NAV BAR -->
+     <!-- 
+         ? Let's think about our Navbar for a moment and consider what we want it to do.  We will want it to help us navigate to various aspects of our page, like the top if we scroll down, or to different notes altogether.  We will have 4 main notes that we will want to route to:
+         Routes: 
+            - General Notes
+            - JavaScript
+            - Bootstrap
+            - APIs
+        ? And perhaps a brand logo that will take us home.
+            - WD00   * using course / cohort number
+      -->
     <nav>
-        <!-- ul>li*2 -->
+        <!-- 
+            ? Lets use somthing within VSCode that can help us really spit out our framework.  We'll try to incorporate what's called Emmet as often as possible.  However, always know that you can always type out everything.
+            - ul>a*5>li 
+            ? Much like the ! + Tab feature, we can layout a quick source of code and inject it with all the unique details afterwards.
+        -->
+
         <ul>
             <a href="#topPage">
                 <li id="brand">WD00</li>
             </a>
+    <!-- 
+        *set the ID of body after trying to set the "Introduction" section 
+        ? Setting the brand to target the top of the body pops us back to the top of the page.
+    -->
             <div id="nav-items">
                 <a href="#topPage" target="_self">
                     <li class="nav-week" id="navWK-1">General Notes</li>
@@ -43,7 +120,9 @@
         </ul>
     </nav>
 
-    <!-- Side Bar -->
+    <!--! STYLING / CSS mini-Lesson -->
+
+    <!-- SIDE BAR -->
     <div class="sideBar">
         <ul id='wkOne-topics'>
             <a href="#topPage">
@@ -51,6 +130,9 @@
             </a>
             <a href="#htmlNotes">
                 <li>HTML</li>
+            </a>
+            <a href="#fileStructure">
+                <li>File/Folder Structure</li>
             </a>
             <a href="#cssNotes">
                 <li>CSS</li>
@@ -71,7 +153,25 @@
 
     </div>
     
+    <!-- GENERAL NOTES -->
+
     <main>
+
+        <!-- Use this as a quick template to each section: -->
+        <!-- <section id="">
+            <div class="sectionHeaders">
+                <h1></h1>
+                <h3></h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+
+                </div>
+                <div id="myNotes">
+
+                </div>
+            </div>
+        </section> -->
 
         
         <section>
@@ -85,7 +185,7 @@
                 <div class="introBox" id="introImg" alt="profile image of a squirrel"></div>
             </div>
         </section>
-
+        
         <section id="htmlNotes">
             <div class="sectionHeaders">
                 <h1>HTML</h1>
@@ -97,6 +197,29 @@
                 Nihil sunt asperiores illum explicabo reprehenderit aliquid, soluta facilis facere molestiae impedit provident distinctio magnam nam ducimus incidunt consectetur debitis, nisi quod corporis fuga odit quas. Id ad explicabo velit.</div>
                 <div class="myNotes">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius unde facilis molestiae provident culpa corporis dicta sunt ipsam possimus. Dolorum libero odio maxime repellendus quaerat adipisci nihil corporis iusto.
+                </div>
+            </div>
+        </section>
+
+        <section id="fileStructure">
+            <div class="sectionHeaders">
+                <h1>File & Folder Structure</h1>
+                <h3>03/05/21</h3>
+            </div>
+            <div class="sectionContainers">
+                <div id="inClassNotes">
+                    <!-- 
+                        ? Sometimes we have to slow down and consider the value of our file structure.  Think of this like our map of our project.  While we build, we aim to make pathways universal so that debugging can be done easier.  We can eliminate certain problems simply because everything is where it is to be expected.  This is also a trait you would probably like to see when picking up a project from a previous developer and having certain standards, we can assure that our product is capable of having the most "uptime" as possible when problems to arrise.  This can help us navigate through our terminal to desired projects as well.
+                     -->
+                     Structure matters.  Let's make an unordered list of why our folder/file structure matters:
+                </div>
+                <div id="myNotes">
+                    <!-- Student Notes. -->
+                    <ul>
+                        <li>Our routes can all be uniform to help debug.</li>
+                        <li>It's easier to understand if we have to return to the project at a later time and/or pass off to another developer.</li>
+                        <li>Helps us when navigating through our terminal.</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -217,26 +340,10 @@
                     <p>*This connection link should only be needed when first establishing the repo/directory communication.  When updating your project, you will only be required to do processes 3, 4, and 6</p>
                 </div>
                 <div id="myNotes">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas eveniet vero ipsa inventore accusamus, doloribus, quod quas laudantium non placeat at quasi temporibus culpa nemo veniam ex quidem nesciunt.
+                    Include any additional notes here: 
                 </div>
             </div>
         </section>
-
-        <!-- Use this as a quick template to each section: -->
-        <!-- <section id="">
-            <div class="sectionHeaders">
-                <h1></h1>
-                <h3></h3>
-            </div>
-            <div class="sectionContainers">
-                <div id="inClassNotes">
-
-                </div>
-                <div id="myNotes">
-
-                </div>
-            </div>
-        </section> -->
 
     </main>
     

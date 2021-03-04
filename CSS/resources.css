@@ -8,7 +8,7 @@
 thead {
     color: white;
     font-size: 18pt;
-    background-color: var(--efaGold);
+    background-color: var(--efaGoldPrime);
 }
 
 thead tr {
@@ -25,5 +25,5 @@ tbody tr td a {
 }
 
 tbody tr td a:visited {
-    color: var(--efaSecondRed);
+    color: var(--efaRedSec);
 }

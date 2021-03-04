@@ -1,0 +1,3 @@
+HTML:
+ - DocType
+    https://www.w3.org/wiki/Doctypes_and_markup_styles

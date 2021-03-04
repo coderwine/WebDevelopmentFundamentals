@@ -1,0 +1,29 @@
+
+GIT LESSON
+* ***********
+
+    - dir to see what directory you're currently in
+    - cd into work folder
+
+    GITHUB
+        - signup or signin to github
+        - create new repository called jsFundamentals
+
+    In CMD:
+        git init  
+            // initializes our repo.  This should only be done once when we are starting a project
+        
+        git status
+            // views the status of current folder and what files have either be altered, haven't been included to current repo/no repo.
+
+        git add .
+            // adds the current folder 
+
+        git commit -m "message"
+            // requries a commit message for detailing project status.  This is most important especially when communicating within a team enviornment or your future self.
+
+        git remote add origin *paste repo here*
+            // connets your repo to the current directory in your workstation. This should only be done during the first connection.
+            
+        git push origin main
+            // pushes the files/folder we noted within our "add" to the currently linked repo.

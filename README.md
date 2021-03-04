@@ -19,6 +19,13 @@ Resources that help structure these notes:
   - Footer built out.  Houses "Resources" and "To Top" navigation.
   - JS HTML page framed out with "week one" material
 
+# Current Lessons (status):
+  - Folder & File structure mini-lesson.  (index.html)
+  - Comments and What They Do for Us.  (index.html)
+  - Git Mini-Lesson (nonWebDevLessons Folder)
+  - Started HTML mini-lesson
+      - working on flow.
+
 # TODO:
 Building out the main Navbar to house the various weeks of Gold badge. 
   - would like for each week to display a set of options within a Sidebar of the topics covered.
