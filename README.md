@@ -18,6 +18,10 @@ Resources that help structure these notes:
   - Resource HTML doc generated and formed to be a small challenge for students.
   - Footer built out.  Houses "Resources" and "To Top" navigation.
   - JS HTML page framed out with "week one" material
+  - Included Anchor tags to help map lessons
+    - index.html
+    - javascriptPage.html
+    - script.js
 
 # Current Lessons (status):
   - Folder & File structure mini-lesson.  (index.html)
@@ -25,6 +29,9 @@ Resources that help structure these notes:
   - Git Mini-Lesson (nonWebDevLessons Folder)
   - Started HTML mini-lesson
       - working on flow.
+  - The Console & console.log()  (index.html / main.js)
+  - Variables
+    - Stopped at Declarations & Initializations
 
 # TODO:
 Building out the main Navbar to house the various weeks of Gold badge. 
@@ -35,4 +42,5 @@ Building out the main Navbar to house the various weeks of Gold badge.
     - HTML mini lesson (building current framework page)
     - Mini-Grid (CSS) Lesson 
     - Mini-Flex (CSS) Lesson
-    - Terminal / Git Lessons 
+    - Terminal / Git Lessons
+    - javascriptPage.html Sidebar not linking correctly. 
